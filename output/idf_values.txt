@@ -67,7 +67,7 @@ Term: 'w' | Inverse Document Frequency: 0.8824432170142996
 Term: 'g' | Document Frequency: 351
 Term: 'g' | Inverse Document Frequency: 0.960385390946376
 Term: 'us' | Document Frequency: 845
-Term: 'us' | Inverse Document Frequency: 0.5788357984625078
+Term: 'us' | Inverse Document Frequency: 0.5788357984625077
 Term: 'inspect' | Document Frequency: 8
 Term: 'inspect' | Inverse Document Frequency: 2.6026025204202563
 Term: 'procedur' | Document Frequency: 236
@@ -123,7 +123,7 @@ Term: 'rungekutta' | Inverse Document Frequency: 2.5514499979728753
 Term: 'call' | Document Frequency: 103
 Term: 'call' | Inverse Document Frequency: 1.4928552827070278
 Term: 'h' | Document Frequency: 449
-Term: 'h' | Inverse Document Frequency: 0.8534461664088769
+Term: 'h' | Inverse Document Frequency: 0.8534461664088768
 Term: 'reev' | Document Frequency: 9
 Term: 'reev' | Inverse Document Frequency: 2.5514499979728753
 Term: 'r' | Document Frequency: 613
@@ -159,7 +159,7 @@ Term: 'jeev' | Inverse Document Frequency: 3.5056925074122
 Term: 'arithmet' | Document Frequency: 89
 Term: 'arithmet' | Inverse Document Frequency: 1.5563025007672873
 Term: 'oper' | Document Frequency: 373
-Term: 'oper' | Inverse Document Frequency: 0.9339836756035124
+Term: 'oper' | Inverse Document Frequency: 0.9339836756035125
 Term: 'ershov' | Document Frequency: 2
 Term: 'ershov' | Inverse Document Frequency: 3.204662511748219
 Term: 'p' | Document Frequency: 303
@@ -183,7 +183,7 @@ Term: 'converg' | Inverse Document Frequency: 2.0005425290922942
 Term: 'iter' | Document Frequency: 66
 Term: 'iter' | Inverse Document Frequency: 1.6861485718703313
 Term: 'process' | Document Frequency: 437
-Term: 'process' | Inverse Document Frequency: 0.8652110704417783
+Term: 'process' | Inverse Document Frequency: 0.8652110704417781
 Term: 'discuss' | Document Frequency: 354
 Term: 'discuss' | Inverse Document Frequency: 0.9566892453864123
 Term: 'appli' | Document Frequency: 122
@@ -457,7 +457,7 @@ Term: 'input' | Inverse Document Frequency: 1.4338105001060746
 Term: 'output' | Document Frequency: 69
 Term: 'output' | Inverse Document Frequency: 1.6668434166749446
 Term: 'data' | Document Frequency: 410
-Term: 'data' | Inverse Document Frequency: 0.8929086506924645
+Term: 'data' | Inverse Document Frequency: 0.8929086506924646
 Term: 'time' | Document Frequency: 352
 Term: 'time' | Inverse Document Frequency: 0.959149843934069
 Term: 'decimalbinari' | Document Frequency: 1
@@ -481,7 +481,7 @@ Term: 'than' | Inverse Document Frequency: 1.2223912787086504
 Term: 'fast' | Document Frequency: 64
 Term: 'fast' | Inverse Document Frequency: 1.699512533428313
 Term: 'do' | Document Frequency: 65
-Term: 'do' | Inverse Document Frequency: 1.6927791507693446
+Term: 'do' | Inverse Document Frequency: 1.6927791507693444
 Term: 'addit' | Document Frequency: 115
 Term: 'addit' | Inverse Document Frequency: 1.4449946670585885
 Term: 'care' | Document Frequency: 12
@@ -539,7 +539,7 @@ Term: 'stretch' | Inverse Document Frequency: 3.204662511748219
 Term: 'feasibl' | Document Frequency: 24
 Term: 'feasibl' | Inverse Document Frequency: 2.125481265700594
 Term: 'consider' | Document Frequency: 65
-Term: 'consider' | Inverse Document Frequency: 1.6927791507693446
+Term: 'consider' | Inverse Document Frequency: 1.6927791507693444
 Term: 'codd' | Document Frequency: 5
 Term: 'codd' | Inverse Document Frequency: 2.8067225030761813
 Term: 'lowri' | Document Frequency: 2
@@ -603,7 +603,7 @@ Term: 'astrahan' | Inverse Document Frequency: 3.204662511748219
 Term: 'shiftregist' | Document Frequency: 3
 Term: 'shiftregist' | Inverse Document Frequency: 3.0285712526925375
 Term: 'index' | Document Frequency: 51
-Term: 'index' | Inverse Document Frequency: 1.7981223313142636
+Term: 'index' | Inverse Document Frequency: 1.7981223313142638
 Term: 'sengupta' | Document Frequency: 1
 Term: 'sengupta' | Inverse Document Frequency: 3.5056925074122
 Term: 'n' | Document Frequency: 204
@@ -629,7 +629,7 @@ Term: 'high' | Inverse Document Frequency: 1.7133008179139462
 Term: 'degre' | Document Frequency: 47
 Term: 'degre' | Inverse Document Frequency: 1.8335946494764825
 Term: 'permit' | Document Frequency: 90
-Term: 'permit' | Inverse Document Frequency: 1.551449997972875
+Term: 'permit' | Inverse Document Frequency: 1.5514499979728753
 Term: 'singleerror' | Document Frequency: 1
 Term: 'singleerror' | Inverse Document Frequency: 3.5056925074122
 Term: 'correct' | Document Frequency: 99
@@ -789,7 +789,7 @@ Term: 'symbol' | Inverse Document Frequency: 1.4928552827070278
 Term: 'jeida' | Document Frequency: 1
 Term: 'jeida' | Inverse Document Frequency: 3.5056925074122
 Term: 'it' | Document Frequency: 240
-Term: 'it' | Inverse Document Frequency: 1.125481265700594
+Term: 'it' | Inverse Document Frequency: 1.1254812657005941
 Term: 'center' | Document Frequency: 33
 Term: 'center' | Inverse Document Frequency: 1.9871785675343125
 Term: 'lem1' | Document Frequency: 1
@@ -887,7 +887,7 @@ Term: 'lesh' | Inverse Document Frequency: 3.5056925074122
 Term: 'octal' | Document Frequency: 2
 Term: 'octal' | Inverse Document Frequency: 3.204662511748219
 Term: 'concept' | Document Frequency: 110
-Term: 'concept' | Inverse Document Frequency: 1.464299822253975
+Term: 'concept' | Inverse Document Frequency: 1.4642998222539751
 Term: 'their' | Document Frequency: 144
 Term: 'their' | Inverse Document Frequency: 1.3473300153169503
 Term: 'date' | Document Frequency: 15
@@ -1045,7 +1045,7 @@ Term: 'capabl' | Inverse Document Frequency: 1.6483600109809315
 Term: 'varieti' | Document Frequency: 53
 Term: 'varieti' | Inverse Document Frequency: 1.781416637811411
 Term: 'characterist' | Document Frequency: 90
-Term: 'characterist' | Inverse Document Frequency: 1.551449997972875
+Term: 'characterist' | Inverse Document Frequency: 1.5514499979728753
 Term: 'similar' | Document Frequency: 72
 Term: 'similar' | Inverse Document Frequency: 1.6483600109809315
 Term: 'basic' | Document Frequency: 107
@@ -1091,7 +1091,7 @@ Term: 'stress' | Inverse Document Frequency: 2.5056925074122
 Term: 'discoveri' | Document Frequency: 5
 Term: 'discoveri' | Inverse Document Frequency: 2.8067225030761813
 Term: 'sourc' | Document Frequency: 51
-Term: 'sourc' | Inverse Document Frequency: 1.7981223313142636
+Term: 'sourc' | Inverse Document Frequency: 1.7981223313142638
 Term: 'possibl' | Document Frequency: 146
 Term: 'possibl' | Inverse Document Frequency: 1.341339651627763
 Term: 'befor' | Document Frequency: 33
@@ -1185,7 +1185,7 @@ Term: 'numer' | Inverse Document Frequency: 1.3125679090577385
 Term: 'analyst' | Document Frequency: 6
 Term: 'analyst' | Inverse Document Frequency: 2.727541257028556
 Term: 'devic' | Document Frequency: 65
-Term: 'devic' | Inverse Document Frequency: 1.6927791507693446
+Term: 'devic' | Inverse Document Frequency: 1.6927791507693444
 Term: 'establish' | Document Frequency: 37
 Term: 'establish' | Inverse Document Frequency: 1.937490783345205
 Term: 'framework' | Document Frequency: 22
@@ -1307,7 +1307,7 @@ Term: 'demonstr' | Inverse Document Frequency: 1.7348404957700558
 Term: 'highli' | Document Frequency: 31
 Term: 'highli' | Inverse Document Frequency: 2.0143308135779274
 Term: 'desir' | Document Frequency: 51
-Term: 'desir' | Inverse Document Frequency: 1.7981223313142636
+Term: 'desir' | Inverse Document Frequency: 1.7981223313142638
 Term: 'futur' | Document Frequency: 47
 Term: 'futur' | Inverse Document Frequency: 1.8335946494764825
 Term: 'formula' | Document Frequency: 63
@@ -1393,7 +1393,7 @@ Term: '40' | Inverse Document Frequency: 1.699512533428313
 Term: 'result' | Document Frequency: 298
 Term: 'result' | Inverse Document Frequency: 1.0314762433359448
 Term: 'separ' | Document Frequency: 51
-Term: 'separ' | Inverse Document Frequency: 1.7981223313142636
+Term: 'separ' | Inverse Document Frequency: 1.7981223313142638
 Term: 'helmholtz' | Document Frequency: 1
 Term: 'helmholtz' | Inverse Document Frequency: 3.5056925074122
 Term: 'wave' | Document Frequency: 12
@@ -1649,7 +1649,7 @@ Term: 'chino' | Inverse Document Frequency: 3.5056925074122
 Term: 'roger' | Document Frequency: 2
 Term: 'roger' | Inverse Document Frequency: 3.204662511748219
 Term: 'recent' | Document Frequency: 65
-Term: 'recent' | Inverse Document Frequency: 1.6927791507693446
+Term: 'recent' | Inverse Document Frequency: 1.6927791507693444
 Term: 'motor' | Document Frequency: 1
 Term: 'motor' | Inverse Document Frequency: 3.5056925074122
 Term: 'trip' | Document Frequency: 5
@@ -1785,7 +1785,7 @@ Term: 'forsyth' | Inverse Document Frequency: 2.6026025204202563
 Term: 'herriot' | Document Frequency: 4
 Term: 'herriot' | Inverse Document Frequency: 2.9036325160842376
 Term: 'arbitrari' | Document Frequency: 51
-Term: 'arbitrari' | Inverse Document Frequency: 1.7981223313142636
+Term: 'arbitrari' | Inverse Document Frequency: 1.7981223313142638
 Term: '25' | Document Frequency: 9
 Term: '25' | Inverse Document Frequency: 2.5514499979728753
 Term: 'leavenworth' | Document Frequency: 5
@@ -1913,7 +1913,7 @@ Term: 'peopl' | Inverse Document Frequency: 2.391749155105363
 Term: 'grader' | Document Frequency: 4
 Term: 'grader' | Inverse Document Frequency: 2.9036325160842376
 Term: 'class' | Document Frequency: 104
-Term: 'class' | Inverse Document Frequency: 1.4886591681134196
+Term: 'class' | Inverse Document Frequency: 1.4886591681134198
 Term: 'classroom' | Document Frequency: 2
 Term: 'classroom' | Inverse Document Frequency: 3.204662511748219
 Term: 'katz' | Document Frequency: 6
@@ -2247,7 +2247,7 @@ Term: 'assembl' | Inverse Document Frequency: 1.9493900066449128
 Term: 'nest' | Document Frequency: 20
 Term: 'nest' | Inverse Document Frequency: 2.204662511748219
 Term: 'definit' | Document Frequency: 90
-Term: 'definit' | Inverse Document Frequency: 1.551449997972875
+Term: 'definit' | Inverse Document Frequency: 1.5514499979728753
 Term: 'parenthet' | Document Frequency: 1
 Term: 'parenthet' | Inverse Document Frequency: 3.5056925074122
 Term: 'serv' | Document Frequency: 32
@@ -2279,7 +2279,7 @@ Term: 'fourth' | Inverse Document Frequency: 2.660594467397943
 Term: 'mode' | Document Frequency: 28
 Term: 'mode' | Inverse Document Frequency: 2.0585344760699806
 Term: 'sequenc' | Document Frequency: 90
-Term: 'sequenc' | Inverse Document Frequency: 1.551449997972875
+Term: 'sequenc' | Inverse Document Frequency: 1.5514499979728753
 Term: 'brook' | Document Frequency: 3
 Term: 'brook' | Inverse Document Frequency: 3.0285712526925375
 Term: 'abacu' | Document Frequency: 1
@@ -2393,7 +2393,7 @@ Term: 'ifac' | Inverse Document Frequency: 3.5056925074122
 Term: 'summer' | Document Frequency: 2
 Term: 'summer' | Inverse Document Frequency: 3.204662511748219
 Term: 'product' | Document Frequency: 65
-Term: 'product' | Inverse Document Frequency: 1.6927791507693446
+Term: 'product' | Inverse Document Frequency: 1.6927791507693444
 Term: 'peekaboo' | Document Frequency: 2
 Term: 'peekaboo' | Inverse Document Frequency: 3.204662511748219
 Term: 'sheet' | Document Frequency: 1
@@ -3207,7 +3207,7 @@ Term: 'resolv' | Inverse Document Frequency: 2.4265112613645754
 Term: 'manual' | Document Frequency: 16
 Term: 'manual' | Inverse Document Frequency: 2.301572524756275
 Term: 'convent' | Document Frequency: 65
-Term: 'convent' | Inverse Document Frequency: 1.6927791507693446
+Term: 'convent' | Inverse Document Frequency: 1.6927791507693444
 Term: 'setup' | Document Frequency: 1
 Term: 'setup' | Inverse Document Frequency: 3.5056925074122
 Term: 'broad' | Document Frequency: 9
@@ -3533,7 +3533,7 @@ Term: 'major' | Inverse Document Frequency: 1.6796177047113736
 Term: 'person' | Document Frequency: 11
 Term: 'person' | Inverse Document Frequency: 2.464299822253975
 Term: 'well' | Document Frequency: 106
-Term: 'well' | Inverse Document Frequency: 1.4803866421474299
+Term: 'well' | Inverse Document Frequency: 1.4803866421474297
 Term: 'book' | Document Frequency: 3
 Term: 'book' | Inverse Document Frequency: 3.0285712526925375
 Term: 'slang' | Document Frequency: 1
@@ -3757,7 +3757,7 @@ Term: 'timemot' | Inverse Document Frequency: 3.5056925074122
 Term: 'miniatur' | Document Frequency: 1
 Term: 'miniatur' | Inverse Document Frequency: 3.5056925074122
 Term: 'onlin' | Document Frequency: 51
-Term: 'onlin' | Inverse Document Frequency: 1.7981223313142636
+Term: 'onlin' | Inverse Document Frequency: 1.7981223313142638
 Term: 'neurolog' | Document Frequency: 1
 Term: 'neurolog' | Inverse Document Frequency: 3.5056925074122
 Term: 'stark' | Document Frequency: 3
@@ -4361,7 +4361,7 @@ Term: 'rutishausr' | Inverse Document Frequency: 3.5056925074122
 Term: 'bottenbirruch' | Document Frequency: 1
 Term: 'bottenbirruch' | Inverse Document Frequency: 3.5056925074122
 Term: 'modifi' | Document Frequency: 65
-Term: 'modifi' | Inverse Document Frequency: 1.6927791507693446
+Term: 'modifi' | Inverse Document Frequency: 1.6927791507693444
 Term: 'larsen' | Document Frequency: 3
 Term: 'larsen' | Inverse Document Frequency: 3.0285712526925375
 Term: 'row' | Document Frequency: 12
@@ -4747,7 +4747,7 @@ Term: 'economis' | Inverse Document Frequency: 3.204662511748219
 Term: '82' | Document Frequency: 33
 Term: '82' | Inverse Document Frequency: 1.9871785675343125
 Term: '81' | Document Frequency: 51
-Term: '81' | Inverse Document Frequency: 1.7981223313142636
+Term: '81' | Inverse Document Frequency: 1.7981223313142638
 Term: 'reciproc' | Document Frequency: 5
 Term: 'reciproc' | Inverse Document Frequency: 2.8067225030761813
 Term: '80' | Document Frequency: 6
@@ -6321,7 +6321,7 @@ Term: 'anstei' | Inverse Document Frequency: 3.5056925074122
 Term: 'cline' | Document Frequency: 3
 Term: 'cline' | Inverse Document Frequency: 3.0285712526925375
 Term: 'partial' | Document Frequency: 51
-Term: 'partial' | Inverse Document Frequency: 1.7981223313142636
+Term: 'partial' | Inverse Document Frequency: 1.7981223313142638
 Term: 'portapunch' | Document Frequency: 1
 Term: 'portapunch' | Inverse Document Frequency: 3.5056925074122
 Term: 'lubbert' | Document Frequency: 1
@@ -9807,7 +9807,7 @@ Term: 'n3' | Inverse Document Frequency: 3.0285712526925375
 Term: 'edg' | Document Frequency: 18
 Term: 'edg' | Inverse Document Frequency: 2.250420002308894
 Term: 'resourc' | Document Frequency: 51
-Term: 'resourc' | Inverse Document Frequency: 1.7981223313142636
+Term: 'resourc' | Inverse Document Frequency: 1.7981223313142638
 Term: 'gerbstadt' | Document Frequency: 1
 Term: 'gerbstadt' | Inverse Document Frequency: 3.5056925074122
 Term: 'pacelli' | Document Frequency: 1
