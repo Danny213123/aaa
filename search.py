@@ -424,6 +424,9 @@ def search_with_weight_vectors(
     detailed: bool = True,
     use_static_quality: bool = False,
     quality_weight: float = 0.3,
+    use_pagerank: bool = False,
+    pagerank_scores: dict = None,
+    pagerank_weight: float = 0.5,
 ) -> Tuple[
     List[Tuple[int, float, set[str]]], Dict[str, Tuple[float, float, float]], List[str]
 ]:
@@ -439,6 +442,9 @@ def search_with_weight_vectors(
     :param detailed: Whether to print query term statistics
     :param use_static_quality: Whether to combine static quality scores
     :param quality_weight: Weight of static quality score in final ranking
+    :param use_pagerank: Whether to combine PageRank scores
+    :param pagerank_scores: Dictionary of PageRank scores
+    :param pagerank_weight: Weight of PageRank score in final ranking (w2)
     :return: Tuple of (list of (document_id, score, common_terms) tuples, dict of term statistics, list of query terms)
     """
     # Process query
@@ -489,8 +495,14 @@ def search_with_weight_vectors(
         )
 
         if similarity > 0:
+            # Combine with PageRank score if enabled
+            if use_pagerank and pagerank_scores:
+                pr_score = pagerank_scores.get(doc_id, 0.0)
+                # score(d, q) = w1 * cos-score(d, q) + w2 * pagerank(d)
+                # where w1 = (1 - pagerank_weight), w2 = pagerank_weight
+                final_score = (1 - pagerank_weight) * similarity + pagerank_weight * pr_score
             # Combine with static quality score if enabled
-            if use_static_quality:
+            elif use_static_quality:
                 quality_score = doc_obj.get_static_quality_score()
                 # score(d, q) = alpha * g(d) + (1 - alpha) * cos(d, q)
                 final_score = (

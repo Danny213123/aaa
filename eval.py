@@ -3,6 +3,7 @@
 Evaluate search results against qrels.text relevance judgments
 """
 import argparse
+import pickle
 import sys
 from pathlib import Path
 from typing import Dict, List, Set
@@ -207,6 +208,24 @@ def main():
         default=0.3,
         help="Weight for static quality score (0.0 to 1.0), default 0.3",
     )
+    parser.add_argument(
+        "--use-pagerank",
+        action="store_true",
+        default=False,
+        help="Use PageRank score combined with cosine similarity",
+    )
+    parser.add_argument(
+        "--pagerank-file",
+        type=Path,
+        default=Path("output/pagerank_scores.pkl"),
+        help="Path to PageRank scores pickle file",
+    )
+    parser.add_argument(
+        "--pagerank-weight",
+        type=float,
+        default=0.5,
+        help="Weight for PageRank score (w2, where w1+w2=1), default 0.5",
+    )
 
     args = parser.parse_args()
 
@@ -228,6 +247,19 @@ def main():
         print("Calculating static quality scores...")
         quality_scores = calculate_static_quality_scores(document_dict)
         print(f"Static quality scores calculated (weight: {args.quality_weight}).\n")
+
+    # Load PageRank scores if enabled
+    pagerank_scores = None
+    if args.use_pagerank:
+        if args.pagerank_file.exists():
+            print(f"Loading PageRank scores from {args.pagerank_file}...")
+            with open(args.pagerank_file, 'rb') as f:
+                pagerank_scores = pickle.load(f)
+            print(f"Loaded PageRank scores for {len(pagerank_scores)} documents.")
+            print(f"PageRank weight (w2): {args.pagerank_weight}, Cosine weight (w1): {1 - args.pagerank_weight}\n")
+        else:
+            print(f"Error: PageRank file {args.pagerank_file} not found.", file=sys.stderr)
+            sys.exit(1)
 
     # Load stopwords
     stopwords_file = Path("cacm/common_words")
@@ -275,6 +307,9 @@ def main():
             detailed=False,
             use_static_quality=args.use_static_quality,
             quality_weight=args.quality_weight,
+            use_pagerank=args.use_pagerank,
+            pagerank_scores=pagerank_scores,
+            pagerank_weight=args.pagerank_weight,
         )
 
         # Extract retrieved document IDs
